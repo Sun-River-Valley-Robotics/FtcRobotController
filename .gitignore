@@ -6,6 +6,11 @@
 
 !libs/*.aar
 
+
+# 724 special  our code inside FIRST project
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/
+
+
 # Files for the ART/Dalvik VM
 *.dex
 
