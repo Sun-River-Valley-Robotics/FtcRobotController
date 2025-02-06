@@ -107,7 +107,11 @@ android {
     }
 
     packagingOptions {
-        pickFirst '**/*.so'
+        //pickFirst '**/*.so'
+        resources {
+            merges += "META-INF/LICENSE.md"  // Doc
+            merges += "META-INF/LICENSE-notice.md"  // Doc
+       }
     }
     sourceSets.main {
         jni.srcDirs = []
